@@ -1,8 +1,13 @@
 class Product {
-  final int id;
-  final String title;
-  final String text;
+  final int productId;
+  final String productTitle;
+  final String imageProduct;
+  final String productName;
+  final double productPrice;
+  final String productAbout;
 
-  Product(this.id, this.title, this.text);
-
+  Product({required this.productId, required this.productTitle,
+    required this.imageProduct, required this.productName,
+    required this.productPrice, required this.productAbout,
+  });
 }
