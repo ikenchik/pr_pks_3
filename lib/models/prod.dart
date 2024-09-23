@@ -3,7 +3,7 @@ class Product {
   final String productTitle;
   final String imageProduct;
   final String productName;
-  final double productPrice;
+  final int productPrice;
   final String productAbout;
 
   Product({required this.productId, required this.productTitle,

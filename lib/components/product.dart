@@ -14,7 +14,7 @@ class ProductItem extends StatelessWidget {
       child: GestureDetector(
         onTap: () => Navigator.push(
           context,
-          MaterialPageRoute(builder: (context) => const ProductPage()),
+          MaterialPageRoute(builder: (context) => ProductPage(product: product,)),
         ),
         child: Container(
           decoration: BoxDecoration(borderRadius: BorderRadius.circular(16),
@@ -25,7 +25,29 @@ class ProductItem extends StatelessWidget {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
-              Center(child: Text(product),),
+              Center(child: Text(
+                product.productName,
+                style: const TextStyle(
+                  fontSize: 20,
+                  fontWeight: FontWeight.bold,
+                  ),
+                ),
+              ),
+              Image.asset(
+                product.imageProduct,
+                height: 265,
+                width: 300,
+                fit: BoxFit.cover,
+              ),
+              Center(
+                child: Text(
+                  '${product.productPrice}₽',
+                  style: const TextStyle(
+                    fontSize: 30,
+                    fontWeight: FontWeight.bold,
+                  ),
+                ),
+              ),
               Align(
                 alignment: Alignment.bottomCenter,
                 child: Padding(
