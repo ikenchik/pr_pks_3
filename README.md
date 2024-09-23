@@ -1,16 +1,13 @@
 # pr_pks_3
+## Юшкин Илья Андреевич
+## ЭФБО-04-22
+Онлайн магазин ИльяМаркет, который занимается продажей комплектующих для ПК, в том числе видеокарт.
+Тестирование приложения было выполнено на физическом устройстве Google Pixel 7 pro.
 
-A new Flutter project.
+![Screenshot_20240923-175040](https://github.com/user-attachments/assets/77ed56ef-9333-445b-b552-a8ea9e7b6525)
+![Screenshot_20240923-175037](https://github.com/user-attachments/assets/5f271e33-8a30-4fea-99f0-87cabd85a003)
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+https://github.com/user-attachments/assets/cf007b5c-1481-4409-a92c-8224797e6d18
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
